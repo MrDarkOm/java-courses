@@ -1,7 +1,5 @@
 package fun.darkom;
 
-import java.util.Scanner;
-
 public class Outs {
 
     public Outs(){

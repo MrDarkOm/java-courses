@@ -20,7 +20,8 @@ public class Main {// начало объявления класса Main
         // LIMIT=57; // так мы уже не можем написать, так как LIMIT - константа
         System.out.println("LIMIT = " + LIMIT);
         System.out.println("Hello World");// вывод строки на консоль
-        new Variables();
+//        new Variables();
+        new Outs();
 
     }// конец объявления нового метода
 

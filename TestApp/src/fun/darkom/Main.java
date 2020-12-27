@@ -9,7 +9,7 @@ public class Main {
         Outs out = new Outs();
 //        Arithmetic arf = new Arithmetic();
 //        out.Inners();
-        out.InnerTest();
+//        out.InnerTest();
 //        arf.Icrement();
     }
 

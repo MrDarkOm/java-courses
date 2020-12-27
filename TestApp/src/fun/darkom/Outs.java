@@ -35,13 +35,13 @@ public class Outs {
 
     }
 
-//    public void Inners(){
-//        Scanner in = new Scanner(System.in);
-//        System.out.print("Введите число: ");
-//        int num = in.nextInt();
-//        System.out.printf("Ваше число: %d \n", num);
-//        in.close();
-//    }
+    public void Inners(){
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int num = in.nextInt();
+        System.out.printf("Ваше число: %d \n", num);
+        in.close();
+    }
         /*
         next(): считывает введенную строку до первого пробела
         nextLine(): считывает всю введенную строку

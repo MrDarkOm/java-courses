@@ -11,13 +11,13 @@ public class Main {// начало объявления класса Main
 
     // определение метода main
     public static void main(String[] args) {// объявление нового метода
-        //metod2();//вызов второго метода metod2();
+//        metod2();//вызов второго метода metod2();
 //        new Variables();
 //        Outs out = new Outs();
-        Arithmetic arf = new Arithmetic();
-        //out.Inners();
+//        Arithmetic arf = new Arithmetic();
+//        out.Inners();
 //        out.InnerTest();
-        arf.Icrement();
+//        arf.Icrement();
     }// конец объявления нового метода
 
     public static void metod2(){

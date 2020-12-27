@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class Outs {
 
-    public void Outs(){
+    public Outs(){
         System.out.println("Hello world!");
         System.out.println("Bye world...");
 
-        System.out.print("Hello world!");
+        System.out.print("Hello \n");
+        System.out.print("world!");
         System.out.print("Bye world...");
 
-        System.out.print("Hello world \n");
+
 
         int x=5;
         int y=6;
@@ -31,9 +32,12 @@ public class Outs {
         String name = "Tom";
         int age = 30;
         float height = 1.7f;
-
+        //Сколько спецификаторов, столько и запятых
+        //%.2f - вывод float или double с 2 знакми после запятой
         System.out.printf("Name: %s  Age: %d  Height: %.2f \n", name, age, height);
+
     }
+
     public void Inners(){
         Scanner in = new Scanner(System.in);
         System.out.print("Input a number: ");

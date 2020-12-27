@@ -1,26 +1,20 @@
 package fun.darkom;
 
-public class Main {// начало объявления класса Main
+public class Main {
 
-    /*
-    многострочный комментарий
-    Объявление нового класса,
-    который содержит код программы
-    */
     public static final int LIMIT = 3;
 
-    // определение метода main
-    public static void main(String[] args) {// объявление нового метода
+    public static void main(String[] args) {
 //        metod2();//вызов второго метода metod2();
-//        new Variables();
-//        Outs out = new Outs();
+        Outs out = new Outs();
 //        Arithmetic arf = new Arithmetic();
 //        out.Inners();
-//        out.InnerTest();
+        out.InnerTest();
 //        arf.Icrement();
-    }// конец объявления нового метода
+    }
 
     public static void metod2(){
+//      new Variables();
         int x = 10, y = 25;
         System.out.println("x = " + x);  // 10
         System.out.println("y = " + y);  // 25
@@ -32,4 +26,4 @@ public class Main {// начало объявления класса Main
         System.out.println(LIMIT + 10);
     }
 
-} // конец объявления класса Main
+}
